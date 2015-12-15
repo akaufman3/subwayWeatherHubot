@@ -23,4 +23,5 @@ To initalize the bot, first download the zip of the files, then follow the steps
     - npm install hubot-slack --save
     
     To run slackbot every time paste this into the terminal after you had cd into the hubot directory:
-    `HUBOT_SLACK_TOKEN=xoxb-15612216326-4qLqo2jY8BpDLwUhb9YaX6dw ./bin/hubot --adapter slack`
+    
+    HUBOT_SLACK_TOKEN=xoxb-15612216326-4qLqo2jY8BpDLwUhb9YaX6dw ./bin/hubot --adapter slack
