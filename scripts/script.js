@@ -1,35 +1,3 @@
-// Initalizing hubot:
-	// sudo npm install -g hubot coffee-script yo generator-hubot
-	// cd subwayWeatherHubot
-	// yo hubot
-	// npm install hubot-slack --save
-
-// To run slackbot every time paste this into the terminal after you had cd into the hubot directory:
-	// HUBOT_SLACK_TOKEN=xoxb-15612216326-4qLqo2jY8BpDLwUhb9YaX6dw ./bin/hubot --adapter slack
-
-
-
-
-// Your app must:
-
-// DONE - Have a message post to Slack based on user input
-// DONE - Do at least 3 different things
-// DONE - Leverage Hubot
-// DONE - Use at least 1 conditional to change the outcome of a Slackbot
-// Read more about hubot
-
-// Bonus
-// DONE - Leverage a for loop to iterate over a collection
-// DONE - Introduce a random component
-// DONE - Include an image in the response in addition to text
-// DONE - One of the commands must utilize the list of people in the class to send a direct message or reply
-
-// Necessary Deliverables
-// DONE - A working slackbot, built by you, that can be run locally
-// A git repository hosted on Github, with the code necessary to run your project
-// A readme.md file with explanations of what your bot does, what commands it responds to, the approach taken, installation instructions, unsolved problems, etc.
-
-
 var forecasts  = {
 	'10004': {
 		temperature: 25,
